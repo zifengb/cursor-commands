@@ -1,0 +1,11 @@
+# Cursor Agent state (keep shared commands only)
+.cursor/history/
+.cursor/tmp/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+*.cache
