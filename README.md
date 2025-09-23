@@ -20,15 +20,26 @@ Cursor Commands are reusable AI prompts saved as `.md` files in the `.cursor/com
 - **`lint-fix`** - Automatically analyze and fix linting issues
 - **`refactor-code`** - Improve code quality while maintaining functionality
 - **`code-review`** - Perform comprehensive code review with suggestions
+- **`optimize-performance`** - Analyze and optimize code performance
+- **`add-error-handling`** - Implement comprehensive error handling
 
 ### Development & Debugging
 - **`fix-compile-errors`** - Analyze and resolve compilation errors
 - **`debug-issue`** - Systematic debugging assistance with step-by-step guidance
 - **`write-unit-tests`** - Generate comprehensive unit tests with proper coverage
+- **`fix-git-issues`** - Resolve Git conflicts and repository issues
 
 ### Documentation & Process
 - **`add-documentation`** - Create comprehensive documentation for code/features
 - **`generate-pr-description`** - Generate detailed pull request descriptions
+- **`generate-api-docs`** - Create comprehensive API documentation
+
+### Security & Accessibility
+- **`security-review`** - Perform comprehensive security audit and vulnerability assessment
+- **`accessibility-audit`** - Review and improve accessibility compliance (WCAG)
+
+### Database & Infrastructure
+- **`database-migration`** - Create and manage database migrations with rollback support
 
 ## Quick Start
 

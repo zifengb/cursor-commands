@@ -8,15 +8,26 @@ This directory contains custom slash commands for Cursor IDE. These commands pro
 - `lint-fix.md` - Automatically lint and fix code formatting issues
 - `refactor-code.md` - Refactor code for better quality and maintainability
 - `code-review.md` - Perform comprehensive code review with suggestions
+- `optimize-performance.md` - Analyze and optimize code performance
+- `add-error-handling.md` - Implement comprehensive error handling
 
 ### Development & Debugging
 - `fix-compile-errors.md` - Analyze and fix compilation errors
 - `debug-issue.md` - Systematic debugging assistance
 - `write-unit-tests.md` - Generate comprehensive unit tests
+- `fix-git-issues.md` - Resolve Git conflicts and repository issues
 
 ### Documentation & Process
 - `add-documentation.md` - Generate comprehensive documentation
 - `generate-pr-description.md` - Create detailed pull request descriptions
+- `generate-api-docs.md` - Create comprehensive API documentation
+
+### Security & Accessibility
+- `security-review.md` - Perform comprehensive security audit
+- `accessibility-audit.md` - Review and improve accessibility compliance
+
+### Database & Infrastructure
+- `database-migration.md` - Create and manage database migrations
 
 ## How to Use
 
