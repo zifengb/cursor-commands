@@ -1,53 +1,193 @@
 # Cursor Commands
 
-Reusable slash-command prompts for the Cursor Agent so teams can standardize common workflows.
+A curated collection of Cursor slash-command prompts that give your team reusable, version-controlled AI workflows directly inside the Cursor IDE.
+
+## What are Cursor Commands?
+
+Cursor Commands are reusable AI prompts saved as Markdown files in `.cursor/commands/`. When you type `/` in Cursor's chat input, the IDE lists every command from your project and your global library so you can insert the prompt instantly. They act like AI-driven shortcuts that automate repetitive tasks, reinforce team standards, and keep feedback consistent.
+
+## Features
+
+- **🚀 Quick access**: Type `/` to surface every command without leaving your flow
+- **🔄 Reusable**: Standardize prompts for common tasks across the whole team
+- **👥 Shareable**: Store commands in git so they ship with your repository
+- **🎯 Focused**: Each command targets a specific workflow with clear structure
+- **📝 Customizable**: Edit or extend the Markdown files to match your processes
 
 ## How commands work
 
-Commands are defined as plain Markdown files that can be stored in two locations:
+Commands can live in two places:
 
-- Project commands: Stored in the `.cursor/commands` directory of your project
-- Global commands: Stored in the `~/.cursor/commands` directory in your home directory
+- Project commands: Store Markdown files in `.cursor/commands` inside your repository
+- Global commands: Store personal commands in `~/.cursor/commands` on your machine
 
-When you type `/` in the chat input box, Cursor will automatically detect and display available commands from both directories, making them instantly accessible across your workflow.
+Cursor automatically scans both directories when you type `/`, combines the results, and inserts the selected command into the chat ready to run.
 
 ## Creating commands
 
 - Create a `.cursor/commands` directory in your project root
-- Add `.md` files with descriptive names (e.g., `review-code.md`, `write-tests.md`)
-- Write plain Markdown content describing what the command should do
-- Commands will automatically appear in the chat when you type `/`
+- Add `.md` files with descriptive names (for example, `code-review.md`, `run-all-tests-and-fix.md`)
+- Write clear Markdown instructions describing what the command should accomplish
+- Open Cursor, type `/`, and choose your new command to execute it immediately
 
-Here's an example of how your commands directory structure might look:
+Example structure:
 
 ```text
 .cursor/
 └── commands/
+    ├── accessibility-audit.md
+    ├── add-documentation.md
+    ├── add-error-handling.md
     ├── address-github-pr-comments.md
     ├── code-review.md
     ├── create-pr.md
+    ├── database-migration.md
+    ├── debug-issue.md
+    ├── fix-compile-errors.md
+    ├── fix-git-issues.md
+    ├── generate-api-docs.md
+    ├── generate-pr-description.md
     ├── light-review-existing-diffs.md
+    ├── lint-fix.md
+    ├── lint.md
     ├── onboard-new-developer.md
+    ├── optimize-performance.md
+    ├── refactor-code.md
     ├── run-all-tests-and-fix.md
     ├── security-audit.md
+    ├── security-review.md
     ├── setup-new-feature.md
-    └── lint.md
+    └── write-unit-tests.md
 ```
 
-## Included examples
+## Available commands
 
-- `code-review.md` — End-to-end review flow covering context gathering, quality checks, and security considerations.
-- `security-audit.md` — Step-by-step guidance for dependency, code, and infrastructure security reviews.
-- `setup-new-feature.md` — Planning workflow for spinning up a new feature end to end.
-- `create-pr.md` — Structured outline for preparing and filing a pull request.
-- `run-all-tests-and-fix.md` — Process for executing tests, triaging failures, and validating fixes.
-- `onboard-new-developer.md` — Onboarding flow and checklist for new teammates.
-- `address-github-pr-comments.md`, `light-review-existing-diffs.md`, `lint.md` — Supporting prompts that help close review feedback, surface risks, and maintain code quality.
+### Code quality & maintenance
+- `lint.md` – Guided flow for running lint checks and resolving issues with verification
+- `lint-fix.md` – Automatically analyze and fix linting issues
+- `refactor-code.md` – Improve code quality while maintaining functionality
+- `optimize-performance.md` – Analyze and optimize code performance
+- `add-error-handling.md` – Implement comprehensive error handling across the change set
 
-Each command follows the same structure—**Overview**, **Steps**, and a final checklist—so they read consistently when inserted into Cursor.
+### Review & collaboration
+- `code-review.md` – Comprehensive review checklist with structured steps and focus areas
+- `address-github-pr-comments.md` – Process reviewer feedback and craft thoughtful responses
+- `light-review-existing-diffs.md` – Quick pass to highlight risky diffs and cleanup items
+- `create-pr.md` – Prepare a well-structured pull request with validation checklist
+- `generate-pr-description.md` – Draft detailed pull-request descriptions automatically
 
-Feel free to modify these Markdown files or add new ones—the commands are version-controlled alongside your code, so the whole team benefits from shared workflows.
+### Testing & reliability
+- `run-all-tests-and-fix.md` – Execute the full suite, triage failures, and confirm fixes
+- `write-unit-tests.md` – Generate focused unit tests with proper coverage
+- `debug-issue.md` – Step-by-step debugging workflow for isolating defects
+- `fix-compile-errors.md` – Diagnose and resolve compilation failures quickly
+
+### Documentation & onboarding
+- `add-documentation.md` – Capture comprehensive product or code documentation
+- `generate-api-docs.md` – Produce rich API documentation with schemas and examples
+- `onboard-new-developer.md` – Checklist-driven onboarding for new teammates
+- `setup-new-feature.md` – Plan requirements, branching, and architecture for new work
+- `.cursor/commands/README.md` – Additional command catalog for quick reference
+
+### Security, accessibility & infrastructure
+- `security-audit.md` – Structured security checklist for code changes
+- `security-review.md` – Broader vulnerability and risk assessment workflow
+- `accessibility-audit.md` – Review for WCAG compliance issues
+- `database-migration.md` – Plan, create, and validate database migrations with rollbacks
+- `fix-git-issues.md` – Resolve merge conflicts and repository problems safely
+
+## Quick start
+
+1. Clone this repository or copy the `.cursor/commands/` directory into your project
+2. Open the project in Cursor IDE
+3. Type `/` in the AI chat to browse available commands
+4. Select a command and let Cursor execute the prompt with your code context
+
+## Installation options
+
+```bash
+# Option 1: clone the repository
+git clone https://github.com/hamzafer/cursor-commands.git
+cd cursor-commands
+```
+
+```bash
+# Option 2: copy commands into an existing project
+cp -r cursor-commands/.cursor /path/to/your/project/
+```
+
+Alternatively, create the directory manually:
+
+1. Create `.cursor/commands/` in your project root
+2. Copy or author the Markdown command files you need
+
+## Writing your own commands
+
+Use the existing files as templates or start from scratch:
+
+```bash
+touch .cursor/commands/my-custom-command.md
+```
+
+```markdown
+# My Custom Command
+
+Brief description of what this command does.
+
+## Objective
+Detailed explanation of the task and expected outcome.
+
+## Requirements
+- Specific requirements or constraints
+- Coding standards to follow
+- Expected formats or structures
+
+Provide clear instructions for the AI to follow.
+```
+
+## Example prompts
+
+```markdown
+# Generate API Documentation
+
+Create comprehensive API documentation for the current code. Include:
+
+- Endpoint descriptions and HTTP methods
+- Request/response schemas with examples
+- Authentication requirements
+- Error codes and responses
+- Rate limiting information
+
+Format as OpenAPI/Swagger specification.
+```
+
+```markdown
+# Security Audit
+
+Perform a security audit of the current code. Check for:
+
+- SQL injection vulnerabilities
+- XSS attack vectors
+- Authentication and authorization issues
+- Input validation problems
+- Sensitive data exposure
+
+Provide specific remediation steps for each issue found.
+```
+
+## Best practices
+
+- **Be specific**: Describe the expected outcome and acceptance criteria
+- **Provide context**: Reference project conventions, architecture, or standards
+- **Set boundaries**: Clarify scope, assumptions, and tooling limits
+- **Include examples**: Show expected formats or responses when helpful
+- **Review together**: Treat command changes like code changes and review in PRs
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE).
+
+## Support
+
+- Open an [issue](https://github.com/hamzafer/cursor-commands/issues) for feedback or requests
+- Check `.cursor/commands/README.md` for a concise command index that ships with the prompts
