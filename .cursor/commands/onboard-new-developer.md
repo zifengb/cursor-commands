@@ -1,6 +1,7 @@
 # Onboard New Developer
 
 ## Overview
+
 Comprehensive onboarding process to get a new developer up and running quickly.
 
 ## Steps

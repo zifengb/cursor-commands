@@ -1,7 +1,9 @@
 # Address GitHub PR Comments
 
 ## Overview
-Process outstanding reviewer feedback, apply required fixes, and draft clear responses for each GitHub pull-request comment.
+
+Process outstanding reviewer feedback, apply required fixes, and draft clear
+responses for each GitHub pull-request comment.
 
 ## Steps
 

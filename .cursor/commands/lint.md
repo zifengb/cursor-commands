@@ -1,7 +1,9 @@
 # Fix Lint Issues
 
 ## Overview
-Run project linters, apply fixes, and ensure the codebase meets formatting and style requirements before merging changes.
+
+Run project linters, apply fixes, and ensure the codebase meets formatting and
+style requirements before merging changes.
 
 ## Steps
 

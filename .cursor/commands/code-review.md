@@ -1,7 +1,10 @@
 # Code Review
 
 ## Overview
-Perform a thorough code review that verifies functionality, maintainability, and security before approving a change. Focus on architecture, readability, performance implications, and provide actionable suggestions for improvement.
+
+Perform a thorough code review that verifies functionality, maintainability, and
+security before approving a change. Focus on architecture, readability,
+performance implications, and provide actionable suggestions for improvement.
 
 ## Steps
 
@@ -48,6 +51,8 @@ Perform a thorough code review that verifies functionality, maintainability, and
 - Performance bottlenecks or regressions assessed
 - Coding standards and best practices followed
 - Resource management, error handling, and logging reviewed
-- Suggested alternatives, additional test cases, or documentation updates captured
+- Suggested alternatives, additional test cases, or documentation updates
+  captured
 
-Provide constructive feedback with concrete examples and actionable guidance for the author.
+Provide constructive feedback with concrete examples and actionable guidance for
+the author.

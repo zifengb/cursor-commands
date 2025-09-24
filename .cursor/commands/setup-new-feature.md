@@ -1,7 +1,9 @@
 # Setup New Feature
 
 ## Overview
-Systematically set up a new feature from initial planning through to implementation structure.
+
+Systematically set up a new feature from initial planning through to
+implementation structure.
 
 ## Steps
 

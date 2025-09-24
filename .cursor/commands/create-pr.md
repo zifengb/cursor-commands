@@ -1,7 +1,9 @@
 # Create PR
 
 ## Overview
-Create a well-structured pull request with proper description, labels, and reviewers.
+
+Create a well-structured pull request with proper description, labels, and
+reviewers.
 
 ## Steps
 

@@ -1,10 +1,12 @@
 # Cursor Commands
 
-This directory contains custom slash commands for Cursor IDE. These commands provide AI-driven shortcuts for common development tasks.
+This directory contains custom slash commands for Cursor IDE. These commands
+provide AI-driven shortcuts for common development tasks.
 
 ## Available Commands
 
 ### Code Quality & Maintenance
+
 - `lint-fix.md` - Automatically lint and fix code formatting issues
 - `refactor-code.md` - Refactor code for better quality and maintainability
 - `code-review.md` - Perform comprehensive code review with suggestions
@@ -12,21 +14,25 @@ This directory contains custom slash commands for Cursor IDE. These commands pro
 - `add-error-handling.md` - Implement comprehensive error handling
 
 ### Development & Debugging
+
 - `fix-compile-errors.md` - Analyze and fix compilation errors
 - `debug-issue.md` - Systematic debugging assistance
 - `write-unit-tests.md` - Generate comprehensive unit tests
 - `fix-git-issues.md` - Resolve Git conflicts and repository issues
 
 ### Documentation & Process
+
 - `add-documentation.md` - Generate comprehensive documentation
 - `generate-pr-description.md` - Create detailed pull request descriptions
 - `generate-api-docs.md` - Create comprehensive API documentation
 
 ### Security & Accessibility
+
 - `security-review.md` - Perform comprehensive security audit
 - `accessibility-audit.md` - Review and improve accessibility compliance
 
 ### Database & Infrastructure
+
 - `database-migration.md` - Create and manage database migrations
 
 ## How to Use
@@ -44,11 +50,14 @@ This directory contains custom slash commands for Cursor IDE. These commands pro
 
 ## Best Practices
 
-- **Be Specific**: Write detailed prompts that clearly describe the expected outcome
-- **Provide Context**: Include information about coding standards, frameworks, and project conventions
+- **Be Specific**: Write detailed prompts that clearly describe the expected
+  outcome
+- **Provide Context**: Include information about coding standards, frameworks,
+  and project conventions
 - **Include Examples**: Show expected input/output formats where helpful
 - **Stay Focused**: Each command should have a single, clear purpose
-- **Use Descriptive Names**: Command filenames should clearly indicate their function
+- **Use Descriptive Names**: Command filenames should clearly indicate their
+  function
 
 ## Command Template
 

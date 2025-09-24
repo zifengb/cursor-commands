@@ -1,7 +1,9 @@
 # Run All Tests and Fix Failures
 
 ## Overview
-Execute the full test suite and systematically fix any failures, ensuring code quality and functionality.
+
+Execute the full test suite and systematically fix any failures, ensuring code
+quality and functionality.
 
 ## Steps
 

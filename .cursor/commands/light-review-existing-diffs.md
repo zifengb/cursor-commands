@@ -1,7 +1,9 @@
 # Light Review Existing Diffs
 
 ## Overview
-Perform a quick quality pass on current diffs to surface risky areas, ensure polish, and flag follow-up actions for deeper review.
+
+Perform a quick quality pass on current diffs to surface risky areas, ensure
+polish, and flag follow-up actions for deeper review.
 
 ## Steps
 

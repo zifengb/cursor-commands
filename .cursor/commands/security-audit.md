@@ -1,7 +1,9 @@
 # Security Audit
 
 ## Overview
-Comprehensive security review to identify and fix vulnerabilities in the codebase.
+
+Comprehensive security review to identify and fix vulnerabilities in the
+codebase.
 
 ## Steps
 

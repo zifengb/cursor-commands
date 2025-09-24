@@ -1,6 +1,7 @@
 # Lint and Fix Code
 
-Please analyze the current file for linting issues and automatically fix them according to the project's coding standards. Focus on:
+Please analyze the current file for linting issues and automatically fix them
+according to the project's coding standards. Focus on:
 
 - Code formatting and style consistency
 - Unused imports and variables
