@@ -221,12 +221,19 @@ Provide specific remediation steps for each issue found.
 - **Review together**: Treat command changes like code changes and review in PRs
 - **Use descriptive names**: Make filenames reflect the command's purpose
 
-## License
+## References
 
-This project is open source and available under the [MIT License](LICENSE).
+- [Changelog – v1.6](https://cursor.com/changelog)
+- [Docs – Custom Slash Commands](https://cursor.com/docs/agent/chat/commands)
+- [Announcement Post 1](https://x.com/cursor_ai/status/1967990959645528195)
+- [Announcement Post 2](https://x.com/cursor_ai/status/1970185277923615188)
 
 ## Support
 
 - Open an [issue](https://github.com/hamzafer/cursor-commands/issues) for
   feedback or requests
 - Refer to this README for the command index that ships with the prompts
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
