@@ -2,6 +2,10 @@
 .cursor/history/
 .cursor/tmp/
 
+# Keep the .cursor directory tracked
+!.cursor/
+!.cursor/**/*
+
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -53,7 +57,3 @@ temp/
 # Cache directories
 .cache/
 .parcel-cache/
-
-# Keep the .cursor directory tracked
-!.cursor/
-!.cursor/**/*

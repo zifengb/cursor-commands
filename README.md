@@ -32,6 +32,12 @@ Commands can live in two places:
 Cursor automatically scans both directories when you type `/`, combines the
 results, and inserts the selected command into the chat ready to run.
 
+## How to use
+
+1. Type `/` in Cursor's AI chat or agent input
+2. Select from the available commands
+3. Let the AI execute the prompt with the relevant project context
+
 ## Creating commands
 
 - Create a `.cursor/commands` directory in your project root
@@ -112,7 +118,6 @@ Example structure:
 - `onboard-new-developer.md` – Checklist-driven onboarding for new teammates
 - `setup-new-feature.md` – Plan requirements, branching, and architecture for
   new work
-- `.cursor/commands/README.md` – Additional command catalog for quick reference
 
 ### Security, accessibility & infrastructure
 
@@ -170,6 +175,9 @@ Detailed explanation of the task and expected outcome.
 - Coding standards to follow
 - Expected formats or structures
 
+## Output
+Description of what the AI should produce.
+
 Provide clear instructions for the AI to follow.
 ```
 
@@ -209,7 +217,9 @@ Provide specific remediation steps for each issue found.
 - **Provide context**: Reference project conventions, architecture, or standards
 - **Set boundaries**: Clarify scope, assumptions, and tooling limits
 - **Include examples**: Show expected formats or responses when helpful
+- **Stay focused**: Keep each command targeted to a single, clear objective
 - **Review together**: Treat command changes like code changes and review in PRs
+- **Use descriptive names**: Make filenames reflect the command's purpose
 
 ## License
 
@@ -219,5 +229,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Open an [issue](https://github.com/hamzafer/cursor-commands/issues) for
   feedback or requests
-- Check `.cursor/commands/README.md` for a concise command index that ships with
-  the prompts
+- Refer to this README for the command index that ships with the prompts
