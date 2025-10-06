@@ -5,6 +5,8 @@
 A curated collection of Cursor slash-command prompts that give your team
 reusable, version-controlled AI workflows directly inside the Cursor IDE.
 
+🔗 Also check out [Cursor Hooks](https://github.com/hamzafer/cursor-hooks) - that runs after every file edit
+
 ## What are Cursor Commands?
 
 Cursor Commands are reusable AI prompts saved as Markdown files in
