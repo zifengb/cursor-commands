@@ -1,18 +1,29 @@
 # Fix Compile Errors
 
-Please analyze the compilation errors in the current codebase and provide fixes
-for them. Focus on:
+## Overview
 
-- Type mismatches and casting issues
-- Missing imports or dependencies
-- Syntax errors and malformed code
-- Undefined variables or functions
-- Configuration issues
+Analyze the compilation errors in the current codebase and provide fixes for them, making the necessary changes to resolve all compilation errors.
 
-For each error:
+## Steps
 
-1. Identify the root cause
-2. Provide the corrected code
-3. Explain why the fix resolves the issue
+1. **Identify compilation errors**
+    - Type mismatches and casting issues
+    - Missing imports or dependencies
+    - Syntax errors and malformed code
+    - Undefined variables or functions
+    - Configuration issues
+2. **Fix each error**
+    - Identify the root cause
+    - Provide the corrected code
+    - Explain why the fix resolves the issue
 
-Make the necessary changes to resolve all compilation errors.
+## Fix Compile Errors Checklist
+
+- [ ] Identified all type mismatches and casting issues
+- [ ] Fixed missing imports or dependencies
+- [ ] Corrected syntax errors and malformed code
+- [ ] Fixed undefined variables or functions
+- [ ] Resolved configuration issues
+- [ ] Provided corrected code for each error
+- [ ] Explained why each fix resolves the issue
+- [ ] Verified all compilation errors are resolved

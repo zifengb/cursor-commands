@@ -2,8 +2,7 @@
 
 ## Overview
 
-Systematically set up a new feature from initial planning through to
-implementation structure.
+Systematically set up a new feature from initial planning through to implementation structure.
 
 ## Steps
 
@@ -20,7 +19,7 @@ implementation structure.
     - Plan UI components and flow
     - Consider testing strategy
 
-## Feature Setup Checklist
+## Setup New Feature Checklist
 
 - [ ] Requirements documented
 - [ ] User stories written

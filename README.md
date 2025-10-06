@@ -17,8 +17,7 @@ tasks, reinforce team standards, and keep feedback consistent.
 
 ## Features
 
-- **🚀 Quick access**: Type `/` to surface every command without leaving your
-  flow
+- **🚀 Quick access**: Type `/` to surface every command without leaving your flow
 - **🔄 Reusable**: Standardize prompts for common tasks across the whole team
 - **👥 Shareable**: Store commands in git so they ship with your repository
 - **🎯 Focused**: Each command targets a specific workflow with clear structure
@@ -28,10 +27,8 @@ tasks, reinforce team standards, and keep feedback consistent.
 
 Commands can live in two places:
 
-- Project commands: Store Markdown files in `.cursor/commands` inside your
-  repository
-- Global commands: Store personal commands in `~/.cursor/commands` on your
-  machine
+- Project commands: Store Markdown files in `.cursor/commands` inside your repository
+- Global commands: Store personal commands in `~/.cursor/commands` on your machine
 
 Cursor automatically scans both directories when you type `/`, combines the
 results, and inserts the selected command into the chat ready to run.
@@ -45,10 +42,8 @@ results, and inserts the selected command into the chat ready to run.
 ## Creating commands
 
 - Create a `.cursor/commands` directory in your project root
-- Add `.md` files with descriptive names (for example, `code-review.md`,
-  `run-all-tests-and-fix.md`)
-- Write clear Markdown instructions describing what the command should
-  accomplish
+- Add `.md` files with descriptive names (for example, `code-review.md`, `run-all-tests-and-fix.md`)
+- Write clear Markdown instructions describing what the command should accomplish
 - Open Cursor, type `/`, and choose your new command to execute it immediately
 
 Example structure:
@@ -70,7 +65,7 @@ Example structure:
     ├── generate-pr-description.md
     ├── light-review-existing-diffs.md
     ├── lint-fix.md
-    ├── lint.md
+    ├── lint-suite.md
     ├── onboard-new-developer.md
     ├── optimize-performance.md
     ├── refactor-code.md
@@ -85,31 +80,23 @@ Example structure:
 
 ### Code quality & maintenance
 
-- `lint.md` – Guided flow for running lint checks and resolving issues with
-  verification
-- `lint-fix.md` – Automatically analyze and fix linting issues
+- `lint-fix.md` – Automatically analyze and fix linting issues in the current file
+- `lint-suite.md` – Run project linters, apply fixes, and ensure codebase meets formatting requirements
 - `refactor-code.md` – Improve code quality while maintaining functionality
 - `optimize-performance.md` – Analyze and optimize code performance
-- `add-error-handling.md` – Implement comprehensive error handling across the
-  change set
+- `add-error-handling.md` – Implement comprehensive error handling across the change set
 
 ### Review & collaboration
 
-- `code-review.md` – Comprehensive review checklist with structured steps and
-  focus areas
-- `address-github-pr-comments.md` – Process reviewer feedback and craft
-  thoughtful responses
-- `light-review-existing-diffs.md` – Quick pass to highlight risky diffs and
-  cleanup items
-- `create-pr.md` – Prepare a well-structured pull request with validation
-  checklist
-- `generate-pr-description.md` – Draft detailed pull-request descriptions
-  automatically
+- `code-review.md` – Comprehensive review checklist with structured steps and focus areas
+- `address-github-pr-comments.md` – Process reviewer feedback and craft thoughtful responses
+- `light-review-existing-diffs.md` – Quick pass to highlight risky diffs and cleanup items
+- `create-pr.md` – Prepare a well-structured pull request with validation checklist
+- `generate-pr-description.md` – Draft detailed pull-request descriptions automatically
 
 ### Testing & reliability
 
-- `run-all-tests-and-fix.md` – Execute the full suite, triage failures, and
-  confirm fixes
+- `run-all-tests-and-fix.md` – Execute the full suite, triage failures, and confirm fixes
 - `write-unit-tests.md` – Generate focused unit tests with proper coverage
 - `debug-issue.md` – Step-by-step debugging workflow for isolating defects
 - `fix-compile-errors.md` – Diagnose and resolve compilation failures quickly
@@ -117,25 +104,21 @@ Example structure:
 ### Documentation & onboarding
 
 - `add-documentation.md` – Capture comprehensive product or code documentation
-- `generate-api-docs.md` – Produce rich API documentation with schemas and
-  examples
+- `generate-api-docs.md` – Produce rich API documentation with schemas and examples
 - `onboard-new-developer.md` – Checklist-driven onboarding for new teammates
-- `setup-new-feature.md` – Plan requirements, branching, and architecture for
-  new work
+- `setup-new-feature.md` – Plan requirements, branching, and architecture for new work
 
 ### Security, accessibility & infrastructure
 
 - `security-audit.md` – Structured security checklist for code changes
 - `security-review.md` – Broader vulnerability and risk assessment workflow
 - `accessibility-audit.md` – Review for WCAG compliance issues
-- `database-migration.md` – Plan, create, and validate database migrations with
-  rollbacks
+- `database-migration.md` – Plan, create, and validate database migrations with rollbacks
 - `fix-git-issues.md` – Resolve merge conflicts and repository problems safely
 
 ## Quick start
 
-1. Clone this repository or copy the `.cursor/commands/` directory into your
-   project
+1. Clone this repository or copy the `.cursor/commands/` directory into your project
 2. Open the project in Cursor IDE
 3. Type `/` in the AI chat to browse available commands
 4. Select a command and let Cursor execute the prompt with your code context
@@ -234,8 +217,7 @@ Provide specific remediation steps for each issue found.
 
 ## Support
 
-- Open an [issue](https://github.com/hamzafer/cursor-commands/issues) for
-  feedback or requests
+- Open an [issue](https://github.com/hamzafer/cursor-commands/issues) for feedback or requests
 - Refer to this README for the command index that ships with the prompts
 
 ## License
