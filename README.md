@@ -1,5 +1,7 @@
 # Cursor Commands
 
+⭐ **Featured by [Cursor](https://x.com/ericzakariasson/status/1973932448200413539)**
+
 A curated collection of Cursor slash-command prompts that give your team
 reusable, version-controlled AI workflows directly inside the Cursor IDE.
 
