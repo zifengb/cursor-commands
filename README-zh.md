@@ -114,7 +114,7 @@ Cursor Commands 是以 Markdown 文件形式保存在 `.cursor/commands/` 目录
 
 ## 快速开始
 
-1. 克隆此仓库或将 `.cursor/commands/` 目录复制到您的项目中
+1. 克隆此仓库或将 `.cursor/commands-zh/` 目录复制到您的项目中
 2. 在 Cursor IDE 中打开项目
 3. 在 AI 聊天中输入 `/` 浏览可用命令
 4. 选择一个命令，让 Cursor 使用您的代码上下文执行提示词
@@ -128,8 +128,10 @@ cd cursor-commands
 ```
 
 ```bash
+# 选项 1：手动创建目录(如果已存在 `.cursor/custom-commands` 则跳过此步骤)
+mkdir -p /path/to/your/project/.cursor/custom-commands
 # 选项 2：将命令复制到现有项目
-cp -r cursor-commands/.cursor /path/to/your/project/
+cp -r cursor-commands/.cursor/commands-zh /path/to/your/project/.cursor/custom-commands
 ```
 
 或者，手动创建目录：
