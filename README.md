@@ -1,3 +1,5 @@
+> English | [简体中文](README-zh.md)
+
 # Cursor Commands
 
 ⭐ **Featured by [Cursor](https://x.com/ericzakariasson/status/1973932448200413539)**
