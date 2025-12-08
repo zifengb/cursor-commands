@@ -55,14 +55,19 @@ Example structure:
     ├── add-documentation.md
     ├── add-error-handling.md
     ├── address-github-pr-comments.md
+    ├── clarify-task.md
     ├── code-review.md
     ├── create-pr.md
+    ├── deslop.md
+    ├── docker-logs.md
     ├── database-migration.md
     ├── debug-issue.md
     ├── fix-compile-errors.md
     ├── fix-git-issues.md
     ├── generate-api-docs.md
     ├── generate-pr-description.md
+    ├── git-commit.md
+    ├── git-push.md
     ├── light-review-existing-diffs.md
     ├── lint-fix.md
     ├── lint-suite.md
@@ -73,6 +78,7 @@ Example structure:
     ├── security-audit.md
     ├── security-review.md
     ├── setup-new-feature.md
+    ├── visualize.md
     └── write-unit-tests.md
 ```
 
@@ -85,6 +91,8 @@ Example structure:
 - `refactor-code.md` – Improve code quality while maintaining functionality
 - `optimize-performance.md` – Analyze and optimize code performance
 - `add-error-handling.md` – Implement comprehensive error handling across the change set
+- `deslop.md` – Clean up AI-generated code by removing unnecessary complexity and verbosity
+- `clarify-task.md` – Break down ambiguous tasks into clear, actionable steps
 
 ### Review & collaboration
 
@@ -100,6 +108,7 @@ Example structure:
 - `write-unit-tests.md` – Generate focused unit tests with proper coverage
 - `debug-issue.md` – Step-by-step debugging workflow for isolating defects
 - `fix-compile-errors.md` – Diagnose and resolve compilation failures quickly
+- `docker-logs.md` – Tail and monitor Docker container logs for debugging
 
 ### Documentation & onboarding
 
@@ -107,6 +116,7 @@ Example structure:
 - `generate-api-docs.md` – Produce rich API documentation with schemas and examples
 - `onboard-new-developer.md` – Checklist-driven onboarding for new teammates
 - `setup-new-feature.md` – Plan requirements, branching, and architecture for new work
+- `visualize.md` – Generate visual diagrams and flowcharts from code or concepts
 
 ### Security, accessibility & infrastructure
 
@@ -115,6 +125,11 @@ Example structure:
 - `accessibility-audit.md` – Review for WCAG compliance issues
 - `database-migration.md` – Plan, create, and validate database migrations with rollbacks
 - `fix-git-issues.md` – Resolve merge conflicts and repository problems safely
+
+### Git workflow
+
+- `git-commit.md` – Create well-structured commit messages with optional issue key linking
+- `git-push.md` – Push changes to remote with pre-push checks
 
 ## Quick start
 
