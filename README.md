@@ -62,6 +62,7 @@ Example structure:
     ├── docker-logs.md
     ├── database-migration.md
     ├── debug-issue.md
+    ├── diagrams.md
     ├── fix-compile-errors.md
     ├── fix-git-issues.md
     ├── generate-api-docs.md
@@ -119,6 +120,7 @@ Example structure:
 - `onboard-new-developer.md` – Checklist-driven onboarding for new teammates
 - `setup-new-feature.md` – Plan requirements, branching, and architecture for new work
 - `visualize.md` – Generate visual diagrams and flowcharts from code or concepts
+- `diagrams.md` – Generate Mermaid diagrams (flowcharts, sequence, class, ER, state diagrams)
 - `overview.md` – Generate Mermaid diagrams for user journey and architecture flow
 - `roadmap.md` – Analyze codebase and generate visual feature roadmaps
 
